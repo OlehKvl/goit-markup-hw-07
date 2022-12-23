@@ -1,0 +1,45 @@
+.client {
+  padding-top: 94px;
+  padding-bottom: 94px;
+
+  &__title {
+    margin-bottom: 50px;
+
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
+  &__list {
+    display: flex;
+    gap: 30px;
+    transition: color var(--bezier-effect);
+  }
+
+  &__item {
+    width: 170px;
+    height: 92px;
+  }
+
+  &__link {
+    color: #afb1b8;
+    padding: 16px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: color var(--bezier-effect);
+  }
+
+  &__link:hover,
+  &__link:focus {
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+  }
+
+  &_icon {
+    fill: currentColor;
+  }
+}
