@@ -77,12 +77,12 @@
   align-items: center;
   border-radius: 50%;
   transition: background-color var(--bezier-effect);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
 }
 
-.team__soc-link:hover,
-.team__soc-link:focus {
-  background-color: var(--accent-color);
-}
 .team__soc-icon {
   fill: #afb1b8;
   transition: fill var(--bezier-effect);

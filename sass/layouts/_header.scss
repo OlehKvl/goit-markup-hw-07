@@ -82,11 +82,10 @@
   letter-spacing: 0.02em;
   color: var(--second-text-color);
   transition: color var(--bezier-effect);
-}
-
-.contact__link:hover,
-.contact__link:focus {
-  color: var(--accent-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 .contacts__icon {
@@ -94,7 +93,7 @@
   fill: currentColor;
 }
 
-.contacts__icon:hover,
-.contacts__icon:focus {
-  fill: var(--accent-color);
-}
+// .contacts__icon:hover,
+// .contacts__icon:focus {
+//   fill: var(--accent-color);
+// }

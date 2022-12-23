@@ -374,20 +374,13 @@ body {
   color: var(--second-text-color);
   transition: color var(--bezier-effect);
 }
-
-.contact__link:hover,
-.contact__link:focus {
+.contact__link:hover, .contact__link:focus {
   color: var(--accent-color);
 }
 
 .contacts__icon {
   margin-right: 10px;
   fill: currentColor;
-}
-
-.contacts__icon:hover,
-.contacts__icon:focus {
-  fill: var(--accent-color);
 }
 
 .hero {
@@ -624,9 +617,7 @@ body {
   border-radius: 50%;
   transition: background-color var(--bezier-effect);
 }
-
-.team__soc-link:hover,
-.team__soc-link:focus {
+.team__soc-link:hover, .team__soc-link:focus {
   background-color: var(--accent-color);
 }
 
@@ -689,6 +680,7 @@ footer {
 .footer__container {
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
 }
 
 .footer__wrap {
@@ -912,16 +904,13 @@ footer {
   padding: 6px 25px;
   border-radius: 4px;
   cursor: pointer;
-  transition: background-color var(--bezier-effect), color var(--bezier-effect);
+  transition: background-color var(--bezier-effect), color var(--bezier-effect), box-shadow var(--bezier-effect);
 }
-
-.portfolio__btn:hover,
-.portfolio__btn:focus {
+.portfolio__btn:hover, .portfolio__btn:focus {
   background-color: var(--accent-color);
   color: var(--third-text-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
-  transition: box-shadow var(--bezier-effect);
 }
 
 .portfolio__list {
@@ -936,9 +925,7 @@ footer {
   width: 370px;
   transition: box-shadow var(--bezier-effect);
 }
-
-.portfolio__link:hover,
-.portfolio__link:focus {
+.portfolio__link:hover, .portfolio__link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
